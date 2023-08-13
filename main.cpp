@@ -80,6 +80,7 @@ int main(int argc, char* argv[]) {
     PROCESS_INFORMATION pi;
 
     CreateProcess(NULL, (LPWSTR)(fortniteEOSPath + L" " + launchArguments).c_str(), NULL, NULL, FALSE, 0, NULL, NULL, &si, &pi);
+    CreateProcess(NULL, (LPWSTR)(fortniteExePath + L" " + launchArguments).c_str(), NULL, NULL, FALSE, 0, NULL, NULL, &si, &pi);
     WaitForSingleObject(pi.hProcess, INFINITE);
     CloseHandle(pi.hProcess);
     CloseHandle(pi.hThread);
