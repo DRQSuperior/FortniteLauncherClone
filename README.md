@@ -4,7 +4,7 @@ A Fortnite Launcher written in C++ to launch Fortnite using authentication and v
 
 ## Introduction
 
-This C++ script launches Fortnite with custom launch arguments and authentication, making it easier for to mod the game.
+This C++ script launches Fortnite with custom launch arguments and authentication, making it easier for you to mod the game.
 
 ## Features
 
